@@ -6,3 +6,6 @@ Small UI components using TailwindCSS and React
 
 ## Price card component
 ![Price card](/img/Price-card-component.png?raw=true)
+
+## Blog component
+![Blog](/img/blog-component.png?raw=true)

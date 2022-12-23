@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="h-screen bg-slate-100 flex justify-center items-center text-[#1a2653] tracking-wider">
+  <div>
+    <div class="w-[700px] bg-[#F1E2F5] p-6 rounded-3xl border-white border-8 flex gap-4">
+      <input type="text" class="block w-full rounded-full outline-none px-5" placeholder="Search articles, topics, etc.">
+      <button class="py-3 px-8 bg-[#1a2653] text-white rounded-xl">Search</button>
+    </div>
+    <div class="w-[700px] bg-[#F1E2F5] p-10 pt-6 rounded-3xl border-white border-8 mt-6">
+      <div class="font-bold text-2xl">Tags</div>
+      <!-- React root Element -->
+      <div id="root"></div>
+    </div>
+  </div>
+  
+
+  <!-- Load React & React DOM -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load React component. Type: module -->
+  <script src="/dist/index.js" type="module"></script>
+</body>
+</html>

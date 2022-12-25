@@ -1,5 +1,0 @@
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
-
-npm install babel-cli@6 babel-preset-react-app@3
-
-npx babel --watch src --out-dir dist --presets react-app/prod
